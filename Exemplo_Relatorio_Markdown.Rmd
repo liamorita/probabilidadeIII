@@ -1,0 +1,38 @@
+---
+title: "Aula_2"
+author: "Lia"
+date: "18/09/2020"
+output:
+  html_document: default
+---
+
+# Criando uma sequencia de números
+```{r}
+#a=seq(1,10,1)
+#a
+a=1:10
+a
+```
+
+# Importar o banco de dados: 
+pegando do site o codigo
+
+**dados do exemplo 1**
+abrir um novo chunk: Ctrl + Alt + I
+```{r}
+library(captioner) #para rodar um por um Ctrl + Enter
+library(DT) #pacote datatable
+dados_ex1=read.table("exemplo_1.2.1.txt",sep=";",head=TRUE)
+table_nums <- captioner(prefix = "Tabela") #material da professora para numerar tabelas
+cap <- table_nums("tab1","Dados de Pressão arterial sistólica (mm Hg)")
+
+#carregar o pacote DT
+datatable(dados_ex1,caption=cap,class = 'cell-border order-column compact hover') 
+dados_ex1
+```
+
+
+```{r}
+read.table
+```
+
