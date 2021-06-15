@@ -1,10 +1,10 @@
 
-Tarefa para 16/março)
+Tarefa para 13/julho/2021)
 Implementar no R um experimento com bolas, moedas ou dado,
 a) fazer uma simulação amostrando de uma distribuição de probabilidade para o problema (exemplo runif, rbinom, rnorm, rexp).
 b) fazer um cálculo com probabilidades envolvidas no problema, utilizando as distribuições disponíveis (exemplo dunif, dbinom, dnorm, dexp)
 
-Tarefa para 13/abril:
+Tarefa para 27/julho:
 Exemplo 1 da Unidade IV
 reproduzir os gráficos de densidade e densidade acumulada.
 
